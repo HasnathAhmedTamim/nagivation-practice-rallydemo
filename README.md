@@ -1,5 +1,4 @@
 
-```
 # Rally Demo Navigation Architecture
 
 A production-ready Jetpack Compose navigation implementation demonstrating modern Android app architecture with multi-screen navigation, state management, and deep linking support.
@@ -12,7 +11,7 @@ This project implements a financial app (`Rally`) with three main screens (Overv
 
 ### 1. Navigation Architecture
 Single source of truth for app navigation using Jetpack Compose Navigation:
-```
+
 NavController (Single Source of Truth)
 ↓
 Routes (Overview, Accounts, Bills, Details)
@@ -20,7 +19,7 @@ Routes (Overview, Accounts, Bills, Details)
 Screens (Composables)
 ↓
 User Interactions trigger navigation
-```
+
 
 ### 2. State Management in Navigation
 - **`rememberNavController()`** — Persists navigation state across recompositions
@@ -338,5 +337,3 @@ object SingleAccount {
 
 Open source — Feel free to use for learning and production projects
 ```
-
-This README provides a comprehensive overview of your navigation implementation with clear explanations, diagrams, and best practices documentation. You can customize the author name and license section as needed.
